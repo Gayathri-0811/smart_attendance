@@ -41,11 +41,10 @@ A **Design Thinking-based project** that modernizes classroom attendance using *
 
 | Layer         | Tools/Tech Used                   |
 |--------------|-----------------------------------|
-| Frontend     | Python Tkinter / Web UI (Future: Streamlit, React) |
-| Backend      | Python, OpenCV, face_recognition library |
-| Database      | SQLite / CSV (Prototype), Institutional Portal API (Future) |
-| AI/ML        | Face Recognition via dlib/CNN embeddings |
-| Deployment   | Local (prototype), Future: Cloud (AWS/Azure) |
+| Frontend     | HTML, CSS, React.js |
+| Backend      | Javascript, Python |
+| AI/ML        | Face Recognition |
+| Deployment   | Local (prototype) |
 
 ---
 
@@ -65,3 +64,5 @@ A **Design Thinking-based project** that modernizes classroom attendance using *
    ```bash
    git clone https://github.com/<your-username>/smart-attendance.git
    cd smart-attendance
+   cd smart-attendance/frontend npm start
+   cd smart-attendance/backend node server.js
